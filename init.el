@@ -18,7 +18,14 @@
 (package-initialize)
 
 ;;基本配置
+(require 'init-base-config)
 
+;;添加小功能,all by myself
+;;(require 'init-elisp)
+(require 'auto-header)
+
+;;添加插件
+(require 'init-site-lisp)
 
 ;;绑定快捷键
 (require 'init-keybind)

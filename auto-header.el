@@ -63,6 +63,7 @@
 ;;   - Dag Brattli <dagb@cs.uit.no> for header-comment-strings additions.
 ;;   - Martin Trautmann <martintrautmann@gmx.de> for some C++ regexp fixes.
 
+
 ;;; code:
 
 (provide 'auto-header)
