@@ -21,7 +21,6 @@
 ;;允许使用递归minibuffer
 (setq enable-recursive-minibuffers t)
 
-
 ;;光标靠近鼠标时，让鼠标自动让开
 (mouse-avoidance-mode 'animate)
 
@@ -41,5 +40,10 @@
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (put 'LaTeX-hide-environment 'disabled nil)
+
+;;隐藏tools,menu和滚动条
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
 
 (provide 'init-base-config)
