@@ -22,7 +22,7 @@
 
 ;;添加小功能,all by myself
 ;;(require 'init-elisp)
-(require 'auto-header)
+;;(require 'auto-header)
 
 ;;添加插件
 (require 'init-site-lisp)
