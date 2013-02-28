@@ -1,5 +1,20 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;; -*- Mode: Emacs-Lisp -*- ;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Filename: init-fonts.el
+;; Description: 
+;; Author: Yannis Xu
+;; Created: Wed Feb 27 00:42:09 2013 (+0800)
+;; Version: 
+;; Last-Updated: Wed Feb 27 01:04:32 2013 (+0800)
+;;           By: Yannis Xu
 (require 'cl)
 
+;;设置中文字体
+;; (if (eq system-type 'windows-nt) 
+;;     (set-fontset-font t 'han (font-spec :family "Microsoft Yahei" :size 16)
+;; 		      )
+(if (eq system-type 'darwin) (set-default-font "Monaco-14"))
+(if (eq system-type 'windows-nt) (set-default-font "Monaco-13")
+       )
 
 (defun font-name-replace-size (font-name new-size)
   (let ((parts (split-string font-name "-")))
@@ -37,3 +52,6 @@ DELTA should be a multiple of 10, in the units used by the
 
 
 (provide 'init-fonts)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-fonts.el ends here
