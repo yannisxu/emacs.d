@@ -13,7 +13,7 @@
 ;;     (set-fontset-font t 'han (font-spec :family "Microsoft Yahei" :size 16)
 ;; 		      )
 (if (eq system-type 'darwin) (set-default-font "Monaco-14"))
-(if (eq system-type 'windows-nt) (set-default-font "Monaco-13")
+(if (eq system-type 'windows-nt) (set-default-font "Consolas 12")
        )
 
 (defun font-name-replace-size (font-name new-size)
