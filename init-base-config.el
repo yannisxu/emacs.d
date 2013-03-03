@@ -1,9 +1,6 @@
 ;;关闭错误提示音
 (setq visible-bell t)
 
-;;显示行号
-(setq column-number-mode t)
-
 ;;设置fill-column设为60,让阅读更加友好
 (setq default-fill-column 60)
 
@@ -45,5 +42,12 @@
 (tool-bar-mode 0)
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
+
+;;添加行号
+(add-to-list 'load-path "~/.emacs.d/elisp/line-num")
+(require 'line-num)
+
+(global-linum-mode 1)
+
 
 (provide 'init-base-config)

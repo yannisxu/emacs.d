@@ -38,7 +38,5 @@
 (global-set-key [M-up] 'move-text-up)
 (global-set-key [M-down] 'move-text-down)
 
-;;Ìø×ª¿ì½Ý¼ü°ó¶¨
-(global-set-key [C-M-g] 'goto-line)
 
 (provide 'init-keybind)
