@@ -18,6 +18,7 @@
 ;;允许使用递归minibuffer
 (setq enable-recursive-minibuffers t)
 
+
 ;;光标靠近鼠标时，让鼠标自动让开
 (mouse-avoidance-mode 'animate)
 

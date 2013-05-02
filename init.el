@@ -39,6 +39,10 @@
 ;;添加头文件
 (require 'init-header2)
 
+;;添加小功能,all by myself
+;;(require 'init-elisp)
+;;(require 'auto-header)
+
 ;;解决emacs编码问题
 (require 'init-encode)
 
@@ -55,7 +59,7 @@
 (require 'init-auto-complete)
 
 ;;emacs code broswer
-(require 'init-ecb)
+;;(require 'init-ecb)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
